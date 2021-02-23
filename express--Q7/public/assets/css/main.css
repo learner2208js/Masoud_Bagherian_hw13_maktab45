@@ -1,0 +1,138 @@
+body {
+  background-color: var(--color-primary);
+}
+
+/* ----- layout styles ----- */
+
+.main {
+  overflow-x: hidden;
+  margin: 20px 0;
+}
+.inner-container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+/* ----- end layout styles ----- */
+
+/* ------ movie styles ------ */
+
+.movies {
+  margin: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -12px;
+}
+.movie-wrapper {
+  width: 100%;
+  padding: 12px;
+}
+@media (min-width: 560px) {
+  .movie-wrapper {
+    width: 50%;
+  }
+}
+@media (min-width: 800px) {
+  .movie-wrapper {
+    width: 33.33%;
+  }
+}
+@media (min-width: 1100px) {
+  .movie-wrapper {
+    width: 25%;
+  }
+}
+.movie {
+  border-radius: 5px;
+  overflow: hidden;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.movie:hover .movie__description {
+  transform: translateY(0);
+}
+.movie__description {
+  position: absolute;
+  width: 100%;
+  background-color: #fff;
+  bottom: 0;
+  left: 0;
+  padding: 40px 20px;
+  z-index: 1;
+  max-height: 100%;
+  transform: translateY(100%);
+  transition: 0.3s;
+  overflow-y: auto;
+}
+.movie__heading {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.movie__overview {
+  line-height: 1.4;
+  overflow-x: auto;
+}
+.movie__cover {
+  width: 100%;
+  position: relative;
+  padding-top: 150%;
+  height: 0;
+}
+.movie__cover .image {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+.movie__caption {
+  padding: 20px;
+  background-color: var(--color-secondary);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+}
+.movie__name {
+  color: #fff;
+  font-weight: normal;
+  text-transform: capitalize;
+  font-size: 18px;
+}
+.movie__rating {
+  background-color: var(--color-primary);
+  padding: 8px;
+  border-radius: 3px;
+  color: #ffa500;
+  margin-left: 8px;
+  align-self: flex-start;
+}
+
+.movie__btn {
+  background-color: var(--color-secondary);
+  padding: 10px;
+  border-radius: 5px;
+  color: #fff;
+  position: absolute;
+  z-index: 2;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  top: 8px;
+  right: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  text-decoration: none;
+}
+.movie__btn:focus {
+  outline: none;
+}
+.movie__btn:hover {
+  background-color: var(--color-primary);
+}
+
+/* ------ end movie styles ------ */

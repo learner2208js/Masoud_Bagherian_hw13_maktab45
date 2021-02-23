@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "image": "assets/image/wonder-woman.jpg",
+    "rate": 6.9,
+    "name": "wonder woman 1984",
+    "description": "Wonder Woman comes into conflict with the Soviet Union during the Cold War in the 1980s and finds a formidable foe by the name of the Cheetah."
+  },
+  {
+    "id": 2,
+    "image": "assets/image/predestination.jpg",
+    "rate": 7.4,
+    "name": "predestination",
+    "description":
+      "Predestination chronicles the life of a Temporal Agent sent on an intricate series of time-travel journeys designed to prevent future killers from committing their crimes. Now, on his final assignment, the Agent must stop the one criminal that has eluded him throughout time and prevent a devastating attack in which thousands of lives will be lost."
+  },
+  {
+    "id": 3,
+    "image": "assets/image/old-guard.jpg",
+    "rate": 7.3,
+    "name": "the old guard",
+    "description":
+      "Four undying warriors who've secretly protected humanity for centuries become targeted for their mysterious powers just as they discover a new immortal."
+  },
+  {
+    "id": 4,
+    "image": "assets/image/soul.jpg",
+    "rate": 8.3,
+    "name": "soul",
+    "description": "Joe Gardner is a middle school teacher with a love for jazz music. After a successful gig at the Half Note Club, he suddenly gets into an accident that separates his soul from his body and is transported to the You Seminar, a center in which souls develop and gain passions before being transported to a newborn child. Joe must enlist help from the other souls-in-training, like 22, a soul who has spent eons in the You Seminar, in order to get back to Earth."
+  },
+  {
+    "id": 5,
+    "image": "assets/image/avengers.jpg",
+    "rate": 7.7,
+    "name": "the avengers",
+    "description":
+      "When an unexpected enemy emerges and threatens global safety and security, Nick Fury, director of the international peacekeeping agency known as S.H.I.E.L.D., finds himself in need of a team to pull the world back from the brink of disaster. Spanning the globe, a daring recruitment effort begins!"
+  },
+  {
+    "id": 6,
+    "image": "assets/image/john-wick-2.jpg",
+    "rate": 7.2,
+    "name": "john wick: chapter 2",
+    "description": "John Wick is forced out of retirement by a former associate looking to seize control of a shadowy international assassins’ guild. Bound by a blood oath to aid him, Wick travels to Rome and does battle against some of the world’s most dangerous killers."
+  }
+]
