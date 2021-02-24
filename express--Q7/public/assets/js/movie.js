@@ -25,10 +25,10 @@ function fillPoster(movie) {
 }
 
 function setPosterBackground(image) {
-  poster.style.background = `url(${image}) no-repeat top/cover`;
+  poster.style.background = `url(/${image}) no-repeat top/cover`;
 }
 
-ajax('get', `api/v1/movies/${id}`, (response) => {
+ajax('get', `/api/v1/movies/${id}`, (response) => {
   const responseBody = JSON.parse(response);
   const movie = responseBody.data.movie;
   console.log(movie);
